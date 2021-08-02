@@ -1,244 +1,241 @@
 .pricing{
-    background: rgba(36, 18, 42, 0.781); 
+    background: rgba(36, 18, 42, 0.781);
+    padding-bottom: 20px;
 
 }
 .pricewrap{
     max-width: 1115px;
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
-   
+
 }
-.forksub-title{   
+.forksub-title{
     padding-top:14px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 28px;
     line-height: 42px;
 
-    }
- .price{
-   margin: 18px;
+}
+.price{
+    margin: 18px;
 
     &__title{
         background: rgba(208, 184, 223, 0.37);
-        
 
-    
-    margin: 0 auto;
-    height: 97px;
-    width: 257px;
-    font-size: 24px;
-    line-height: 24px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     }
- } 
+
+
+        margin: 0 auto;
+        height: 97px;
+        width: 257px;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 .priceblock{
-    background: rgba(197, 171, 207, 0.233); 
-    
+    background: rgba(197, 171, 207, 0.233);
+
     width: 257px;
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
 
     &__number{
-    padding-top: 30px;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 62px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #FFFFFF;
+        padding-top: 30px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 62px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #FFFFFF;
     }
     &__permonth{
-    margin-top: 20px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
 
-    &::after{
-        content: " ";
-        position: absolute;
-        width: 60px;
-        height: 5px;
-        background: #8D81AC;
-        transform: translate(-125%,840%);
+        &::after{
+            content: " ";
+            position: absolute;
+            width: 60px;
+            height: 5px;
+            background: #8D81AC;
+            transform: translate(-125%,840%);
 
+        }
     }
-    }
 
- 
+
     &__options{
-    margin-top: 73px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
+        margin-top: 73px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
 
-    color: #FFFFFF;
+        color: #FFFFFF;
     }
     &__options-first{
         padding-top: 21px;
     }
     &__options2{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    color: #FFFFFF; 
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
     }
     &__purchase{
-    margin-top: 37px;
-    color: #FFFFFF; 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 15px;
-    text-transform: uppercase;
-    width: 163px;
-    height: 45px;
-    border-radius: 30px;
-    margin-bottom: 36px;
-    border-style: none;
-    background: rgba(208, 184, 223, 0.37);
+        margin-top: 37px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 15px;
+        text-transform: uppercase;
+        width: 163px;
+        height: 45px;
+        border-radius: 30px;
+        margin-bottom: 36px;
+        border-style: none;
+        background: rgba(208, 184, 223, 0.37);
 
 
     }
 
-    }
+}
 
 .price-active{
 
-&__title{
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 299px; 
-    height: 111px;
-    margin: 0 auto;
-    background: rgba(40, 20, 46, 0.301); 
+    &__title{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 299px;
+        height: 111px;
+        margin: 0 auto;
+        background: rgba(40, 20, 46, 0.301);
 
-}
+    }
 }
 .priceblock-active{
-    background: rgba(53, 18, 51, 0.109); 
+    background: rgba(53, 18, 51, 0.109);
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     width: 299px;
 
-&__number{
-    font-weight: bold;
-    font-size: 82px;
-    line-height: 84px;
-    color: #FFFFFF;
-    padding-top: 57px;
-    text-transform: uppercase;
-    
-}
-&__permonth{
-    margin-top: 16px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    &__number{
+        font-weight: bold;
+        font-size: 82px;
+        line-height: 84px;
+        color: #FFFFFF;
+        padding-top: 57px;
+        text-transform: uppercase;
 
-    &::after{
-        content: " ";
-        position: absolute;
-        width: 60px;
-        height: 5px;
-        background: #8D81AC;
-        transform: translate(-118%,1140%);
     }
+    &__permonth{
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-transform: uppercase;
 
-}
-&__options{
-    margin-top: 91px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    color: #FFFFFF;
-}
-&__options2{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    color: #FFFFFF;
-}
-&__purchase{
-    margin-top: 83px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
-    border-radius: 30px;
-    margin-bottom: 47px;
-    border-style: none;
-    width: 190px;
-    height: 52px;
-    background: rgba(208, 184, 223, 0.37);
-    color: #FFFFFF;
-}
+        &::after{
+            content: " ";
+            position: absolute;
+            width: 60px;
+            height: 5px;
+            background: #8D81AC;
+            transform: translate(-118%,1140%);
+        }
+
+    }
+    &__options{
+        margin-top: 91px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__options2{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__purchase{
+        margin-top: 83px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-transform: uppercase;
+        border-radius: 30px;
+        margin-bottom: 47px;
+        border-style: none;
+        width: 190px;
+        height: 52px;
+        background: rgba(208, 184, 223, 0.37);
+        color: #FFFFFF;
+    }
 }
 @media (min-width: 768px){
-.forksub{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding-top: 39px;
-
-}
-
-.price{
-    width: 100%;
-    }
-.price-4{
-    display: flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.forksub-title{
-    padding-top: 98px;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 44px;
+    .forksub{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding-top: 39px;
 
     }
+    .pricing{
+        padding-bottom: 94px;
+    }
+
+    .price{
+        width: 100%;
+    }
+    .price-4{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .forksub-title{
+        padding-top: 98px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 44px;
+
+    }
 
 }
-
-
 @media (min-width: 1200px){
 
-    .pricewrap{
-        height: 847px;
-  
-    }
     .forksub{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    } 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .forksub-title{
         padding-top: 83px;
-    font-size: 48px;
-    line-height: 50px;
-    } 
-    
-}
+        font-size: 48px;
+        line-height: 50px;
+    }
 
+}
