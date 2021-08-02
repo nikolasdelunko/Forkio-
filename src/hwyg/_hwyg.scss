@@ -1,0 +1,156 @@
+
+.hwyg{
+font-family: "Montserrat", sans-serif;
+}
+
+.features{
+    padding-left: 21px;
+    padding-right: 21px;
+    &__title{
+        padding-top: 120px;
+        padding-bottom: 36px;
+        color:  #8D81AC;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    &__text{
+        padding-top: 27px;
+        padding-bottom: 40px;
+
+    }
+    &__item{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #323232;
+        padding-bottom: 14px;
+    }
+    &__descriptions{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #848E97;
+    }
+}
+.editor{
+    text-align: right;
+    right: 0; 
+    &__pic{
+        text-align: right;
+        right: 0;
+
+    }
+
+
+}
+    .hwyg-desktop{
+        &__title{
+            display: none;
+        }
+    }
+
+
+@media (min-width: 768px){
+
+    .features{
+        text-align: left;
+        max-width: 768px;
+        margin: 0 auto;
+        &__title{
+        margin-top: 160px;
+        padding-bottom: 60px;
+        font-size: 42px;
+        line-height: 44px;
+        }
+        &__block{
+            display: flex;
+            gap: 45px;
+            margin-top: 5%;
+            width: 100%;
+        }
+        &__picture{
+            position: relative;
+            padding-top: 20%;
+            width: 34%;
+      
+        }
+        &__icons{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+        &__text{
+            margin-left: 1%;
+           padding-top: unset; 
+           justify-content: start;
+        }
+
+    }
+    .editor{
+        text-align: right;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 96px;
+       
+        &__pic{
+            height: 519px;
+            width: 700px;
+            right: 0;
+            text-align: right;
+        }
+
+    }
+    .hwyg-desktop{
+        &__title{
+            display: none;
+        }
+    }
+
+}
+@media (min-width: 1200px){
+    .hwyg{
+        background: #E5E5E5;
+        display: flex;
+    }
+   
+.hwyg-desktop{
+    padding-top: 94px;
+    display: flex;
+    &__title{
+        margin-top: 94px;
+        display:unset;
+        padding-bottom: 36px;
+        color:  #8D81AC;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 50px;   
+    }
+    .features{
+        &__text{
+            padding-bottom: 10px;
+        }
+    }
+    .editor{
+        margin-top: 94px;
+
+        &__pic{
+            padding-top: 36px;
+        }
+    }
+
+
+}
+
+.features{
+    &__title{
+        display: none
+    }
+}
+
+}

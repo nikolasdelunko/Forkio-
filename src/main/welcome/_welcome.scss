@@ -1,0 +1,90 @@
+.welcome {
+  background-image: url('https://telegra.ph/file/224ebe7827ac001f2dd08.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 68%;
+  height: 600px;
+
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  &__texts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-top: 50px;
+    top: 153px;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+    @media screen and (min-width: 768px) {
+      top: 186px;
+      font-size: 72px;
+    }
+    @media screen and (min-width: 1400px) {
+      font-size: 72px;
+    }
+  }
+
+  &__description {
+    //position: absolute;
+    font-weight: bold;
+    top: 221px;
+    color: #8D81AC;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 14px;
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      left: 21%;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 24px;
+    }
+  }
+
+  &__version {
+    font-weight: bold;
+    top: 287px;
+    color: #848E97;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+}
+
+.download-btn {
+  //margin-top: 394px;
+  width: 290px;
+  height: 45px;
+  transform: translate(0%, 627%);
+  @media screen and (min-width: 100px) {
+  transform: translate(0%, 740%);
+}
+  @media screen and (min-width: 207px) {
+
+    transform: translate(0%, 880%);
+  }
+  @media screen and (min-width: 470px) {
+    transform: translate(0%, 920%);
+  }
+  @media screen and (min-width: 768px) {
+    width: 390px;
+    height: 62px;
+    transform: translate(0%, 600%);
+  }
+}

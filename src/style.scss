@@ -1,0 +1,21 @@
+@import "globals/vars";
+@import "globals/mixins";
+@import"globals/reset";
+@import "src/main/header/header";
+@import "src/main/butter/Burger";
+@import "src/main/welcome/welcome.scss";
+@import "src/main/peoleAreTalking/peoleAreTalking";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "information/information";
+@import"hwyg/_hwyg.scss";
+@import "pricing/pricing";
